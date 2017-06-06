@@ -1,14 +1,20 @@
 {
-    "name": "danielbachhuber/dictator",
+    "name": "johnbillion/dictator",
     "description": "The Dictator controls the state of WordPress",
     "type": "wp-cli-package",
-    "homepage": "https://github.com/danielbachhuber/dictator",
+    "homepage": "https://github.com/johnbillion/dictator",
     "license": "MIT",
     "authors": [
         {
             "name": "Daniel Bachhuber",
             "email": "d@danielbachhuber.com",
             "homepage": "http://danielbachhuber.com",
+            "role": "Developer"
+        },
+        {
+            "name": "John Blackbourn",
+            "email": "john@johnblackbourn.com",
+            "homepage": "https://johnblackbourn.com",
             "role": "Developer"
         }
     ],
