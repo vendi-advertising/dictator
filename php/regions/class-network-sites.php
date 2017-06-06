@@ -39,6 +39,16 @@ class Network_Sites extends Region {
 						'_required'         => false,
 						'_get_callback'     => 'get_site_value',
 						),
+					'timezone' => array(
+						'_type'             => 'text',
+						'_required'         => false,
+						'_get_callback'     => 'get_site_value',
+						),
+					'WPLANG' => array(
+						'_type'             => 'text',
+						'_required'         => false,
+						'_get_callback'     => 'get_site_value',
+						),
 					)
 				)
 		);

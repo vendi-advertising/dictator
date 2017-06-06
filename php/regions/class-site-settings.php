@@ -30,6 +30,17 @@ class Site_Settings extends Region {
 				'_required'         => false,
 				'_get_callback'     => 'get',
 				),
+			'timezone' => array(
+				'_type'             => 'text',
+				'_required'         => false,
+				'_get_callback'     => 'get_site_value',
+				),
+			'WPLANG' => array(
+				'_type'             => 'text',
+				'_required'         => false,
+				'_get_callback'     => 'get_site_value',
+				),
+			)
 			'date_format'   => array(
 				'_type'             => 'text',
 				'_required'         => false,
