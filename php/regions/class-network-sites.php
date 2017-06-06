@@ -140,6 +140,12 @@ class Network_Sites extends Region {
 
 					break;
 
+				default:
+
+					update_option( $field, $single_value );
+
+					break;
+
 			}
 
 		}
@@ -227,6 +233,10 @@ class Network_Sites extends Region {
 				foreach( $site_users as $site_user ) {
 					$value[ $site_user->user_login ] = array_shift( $site_user->roles );
 				}
+				break;
+
+			default:
+				$value = get_option( $key );
 				break;
 
 		}
