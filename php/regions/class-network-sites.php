@@ -39,7 +39,7 @@ class Network_Sites extends Region {
 						'_required'         => false,
 						'_get_callback'     => 'get_site_value',
 						),
-					'timezone' => array(
+					'timezone_string' => array(
 						'_type'             => 'text',
 						'_required'         => false,
 						'_get_callback'     => 'get_site_value',
