@@ -1,8 +1,8 @@
 {
-    "name": "johnbillion/dictator",
+    "name": "vendi-advertising/dictator",
     "description": "The Dictator controls the state of WordPress",
     "type": "wp-cli-package",
-    "homepage": "https://github.com/johnbillion/dictator",
+    "homepage": "https://github.com/vendi-advertising/dictator",
     "license": "MIT",
     "authors": [
         {
@@ -15,6 +15,12 @@
             "name": "John Blackbourn",
             "email": "john@johnblackbourn.com",
             "homepage": "https://johnblackbourn.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Chris Haas",
+            "email": "chris@vendiadvertising.com",
+            "homepage": "https://www.vendiadvertising.com",
             "role": "Developer"
         }
     ],
