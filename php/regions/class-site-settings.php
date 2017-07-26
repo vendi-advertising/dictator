@@ -40,7 +40,7 @@ class Site_Settings extends Region {
 				'_required'         => false,
 				'_get_callback'     => 'get_site_value',
 				),
-			)
+			),
 			'date_format'   => array(
 				'_type'             => 'text',
 				'_required'         => false,
@@ -166,7 +166,7 @@ class Site_Settings extends Region {
 	 * Impose some data onto the region
 	 * How the data is interpreted depends
 	 * on the region
-	 * 
+	 *
 	 * @param string $key
 	 * @param mixed $value
 	 * @return true|WP_Error
@@ -215,7 +215,7 @@ class Site_Settings extends Region {
 						update_option( $key, 'closed' );
 					}
 					break;
-				
+
 				default:
 					update_option( $key, $value );
 					break;
@@ -228,7 +228,7 @@ class Site_Settings extends Region {
 
 	/**
 	 * Get the differences between the state file and WordPress
-	 * 
+	 *
 	 * @return array
 	 */
 	public function get_differences() {
@@ -247,7 +247,7 @@ class Site_Settings extends Region {
 
 	/**
 	 * Get the value for the setting
-	 * 
+	 *
 	 * @param string $name
 	 * @return mixed
 	 */
@@ -261,7 +261,7 @@ class Site_Settings extends Region {
 			case 'active_theme':
 				$value = get_option( 'stylesheet' );
 				break;
-			
+
 			default:
 				$value = get_option( $name );
 				break;
