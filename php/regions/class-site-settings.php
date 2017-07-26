@@ -33,12 +33,12 @@ class Site_Settings extends Region {
 			'timezone' => array(
 				'_type'             => 'text',
 				'_required'         => false,
-				'_get_callback'     => 'get_site_value',
+				'_get_callback'     => 'get',
 				),
 			'WPLANG' => array(
 				'_type'             => 'text',
 				'_required'         => false,
-				'_get_callback'     => 'get_site_value',
+				'_get_callback'     => 'get',
 				),
 			'date_format'   => array(
 				'_type'             => 'text',
